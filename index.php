@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php bloginfo('name'); ?></title>
+	<title><?php bloginfo('wordpress-starter'); ?></title>
 	<script src="http://use.edgefonts.net/josefin-slab.js"></script>
 	<script src="http://use.edgefonts.net/merriweather.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo ('stylesheet_url');?>"/>
@@ -20,6 +20,7 @@
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hero.jpg" />
 			<?php if ( have_posts() ) :while ( have_posts() ) : the posts (); ?>
 			<section>
+					<a href="<?php the_permalink(); ?>"><h1><?php the_title_artribute(); ?><?h1></a>
 					<?php the_content(); ?>
 					<!--Pressed and Squeezed is a full-service WordPress shop. We create custom themes and CMSes for our clients.
 					We also make pancakes on the side.-->
