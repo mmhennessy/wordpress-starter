@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php bloginfo('wordpress-starter'); ?></title>
+	<title><?php bloginfo('firstsite'); ?></title>
 	<script src="http://use.edgefonts.net/josefin-slab.js"></script>
 	<script src="http://use.edgefonts.net/merriweather.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo ('stylesheet_url');?>"/>
