@@ -46,6 +46,12 @@ body {
 	margin-right:auto;
 }
 
+sidebar {
+	width: 20%;
+	float: left;
+	padding: 2em;
+}
+
 section > section {
 	width: 60%;
 	max-width: 27.8125em;

@@ -1,3 +1,4 @@
+<div class="clearfix">
 <?php get_header();?>
 		<section>
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hero.jpg" />
@@ -11,5 +12,7 @@
 		</p?php endwhile; else :?>
 		<p><?php_e('sorry, no content'); ?></p>
 	<?php endif; ?>
+		<?php get_sidebar();?>
 		</section>
+	</div>
 <?php get_footer();?>
